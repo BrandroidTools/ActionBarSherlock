@@ -952,7 +952,7 @@ public class ActionBarSherlockCompat extends ActionBarSherlock implements MenuBu
                     }
 
                     boolean splitActionBar = false;
-                    final boolean splitWhenNarrow = (mUiOptions & ActivityInfo.UIOPTION_SPLIT_ACTION_BAR_WHEN_NARROW) != 0;
+                    final boolean splitWhenNarrow = true; // (mUiOptions & ActivityInfo.UIOPTION_SPLIT_ACTION_BAR_WHEN_NARROW) != 0;
                     if (splitWhenNarrow) {
                         splitActionBar = getResources_getBoolean(mActivity, R.bool.abs__split_action_bar_is_narrow);
                     } else {
