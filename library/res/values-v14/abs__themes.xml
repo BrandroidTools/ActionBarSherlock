@@ -29,6 +29,10 @@
 
     <style name="Theme.Sherlock.Dialog" parent="android:Theme.Holo.Dialog">
     </style>
+    <style name="Theme.Sherlock.DialogWhenLarge" parent="android:Theme.Holo.DialogWhenLarge">
+    </style>
     <style name="Theme.Sherlock.Light.Dialog" parent="android:Theme.Holo.Light.Dialog">
+    </style>
+    <style name="Theme.Sherlock.Light.DialogWhenLarge" parent="android:Theme.Holo.Light.DialogWhenLarge">
     </style>
 </resources>

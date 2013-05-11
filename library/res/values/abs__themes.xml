@@ -221,6 +221,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowContentOverlay">@null</item>
     </style>
+    <style name="Theme.Sherlock.DialogWhenLarge" parent="Theme.Sherlock" />
     <style name="Theme.Sherlock.Light.Dialog" parent="android:Theme.Light">
         <item name="android:windowFrame">@null</item>
         <item name="android:windowTitleStyle">@style/DialogWindowTitle.Sherlock.Light</item>
@@ -247,4 +248,5 @@
         <item name="windowActionBar">false</item>
         <item name="windowContentOverlay">@null</item>
     </style>
+    <style name="Theme.Sherlock.Light.DialogWhenLarge" parent="Theme.Sherlock.Light" />
 </resources>
